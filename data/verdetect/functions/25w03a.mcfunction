@@ -1,2 +1,3 @@
-tellraw @s {text:"25w03a /tellraw command",hover_event:{action:'show_text',value:"25w03a hover event"}}
+test pos
 scoreboard players set MinecraftVersion VersionInfo 15
+function verdetect:25w04a
