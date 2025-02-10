@@ -1,2 +1,1 @@
-attribute @s forge:swim_speed get
-scoreboard players set IsForge VersionInfo 1
+execute as @r store success score IsForge VersionInfo run attribute @s forge:swim_speed get

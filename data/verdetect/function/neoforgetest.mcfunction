@@ -1,2 +1,2 @@
-attribute @s neoforge:creative_flight get
-scoreboard players set IsNeoForge VersionInfo 1
+execute as @r store success score IsNeoForge VersionInfo run attribute @s neoforge:creative_flight get
+
