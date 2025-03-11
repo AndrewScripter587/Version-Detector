@@ -1,0 +1,2 @@
+gamerule tntExplodes
+scoreboard players set MinecraftVersion VersionInfo 22

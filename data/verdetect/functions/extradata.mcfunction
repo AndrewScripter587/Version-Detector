@@ -21,5 +21,7 @@ execute if score MinecraftVersion VersionInfo matches 17 run data merge storage 
 execute if score MinecraftVersion VersionInfo matches 18 run data merge storage verdetect:info {VersionString:"1.21.5",VersionName:"Spring Drop",IsSnapshot:true,IsRelease:false,FullVersionString:"25w06a"}
 execute if score MinecraftVersion VersionInfo matches 19 run data merge storage verdetect:info {VersionString:"1.21.5",VersionName:"Spring Drop",IsSnapshot:true,IsRelease:false,FullVersionString:"25w07a"}
 execute if score MinecraftVersion VersionInfo matches 20 run data merge storage verdetect:info {VersionString:"1.21.5",VersionName:"Spring Drop",IsSnapshot:true,IsRelease:false,FullVersionString:"25w08a"}
-execute if score MinecraftVersion VersionInfo matches 21 run data merge storage verdetect:info {VersionString:"1.21.5",VersionName:"Spring Drop",IsSnapshot:true,IsRelease:false,FullVersionString:"25w09a"}
+execute if score MinecraftVersion VersionInfo matches 21 run data merge storage verdetect:info {VersionString:"1.21.5",VersionName:"Spring Drop",IsSnapshot:true,IsRelease:false,FullVersionString:"25w09a-25w09b"}
+execute if score MinecraftVersion VersionInfo matches 22 run data merge storage verdetect:info {VersionString:"1.21.5",VersionName:"Spring Drop",IsSnapshot:true,IsRelease:false,FullVersionString:"25w10a"}
+
 execute store result storage verdetect:info VersionID int 1 run scoreboard players get MinecraftVersion VersionInfo
