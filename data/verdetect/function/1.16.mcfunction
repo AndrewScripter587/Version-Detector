@@ -1,3 +1,3 @@
 execute if entity @e[type=piglin]
-scoreboard players set MinecraftVersion VersionInfo 3
-function verdetect:1.17
+scoreboard players add MinecraftVersion VersionInfo 1
+function verdetect:1.16.2

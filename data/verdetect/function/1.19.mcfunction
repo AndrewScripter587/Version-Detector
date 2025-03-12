@@ -1,3 +1,3 @@
 execute if entity @e[type=warden]
-scoreboard players set MinecraftVersion VersionInfo 6
-function verdetect:1.20
+scoreboard players add MinecraftVersion VersionInfo 1
+function verdetect:1.19.3

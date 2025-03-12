@@ -1,3 +1,3 @@
 gamerule spawnChunkRadius
-scoreboard players set MinecraftVersion VersionInfo 10
+scoreboard players add MinecraftVersion VersionInfo 1
 function verdetect:1.21

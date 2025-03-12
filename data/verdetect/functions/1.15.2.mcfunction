@@ -1,3 +1,3 @@
-random value 0..1
+gamerule doPatrolSpawning
 scoreboard players add MinecraftVersion VersionInfo 1
-function verdetect:1.20.3
+function verdetect:1.16

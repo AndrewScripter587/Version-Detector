@@ -1,3 +1,3 @@
 test pos
-scoreboard players set MinecraftVersion VersionInfo 15
+scoreboard players add MinecraftVersion VersionInfo 1
 function verdetect:25w04a

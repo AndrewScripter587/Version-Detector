@@ -1,3 +1,3 @@
 execute if entity @e[type=sniffer]
-scoreboard players set MinecraftVersion VersionInfo 7
+scoreboard players add MinecraftVersion VersionInfo 1
 function verdetect:1.20.2
