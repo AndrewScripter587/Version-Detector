@@ -1,3 +1,4 @@
+execute if score MinecraftVersion VersionInfo matches ..-1 run tellraw @s "Detected Server Version: Older Version of Minecraft"
 execute if score MinecraftVersion VersionInfo matches 0 run tellraw @s "Detected Server Version: 1.13"
 execute if score MinecraftVersion VersionInfo matches 1 run tellraw @s "Detected Server Version: 1.13.1"
 execute if score MinecraftVersion VersionInfo matches 2 run tellraw @s "Detected Server Version: 1.14-1.14.2"
@@ -29,7 +30,7 @@ execute if score MinecraftVersion VersionInfo matches 27 run tellraw @s "Detecte
 execute if score MinecraftVersion VersionInfo matches 28 run tellraw @s "Detected Server Version: 1.21.5 Snapshot (25w08a)"
 execute if score MinecraftVersion VersionInfo matches 29 run tellraw @s "Detected Server Version: 1.21.5 Snapshot (25w09a-25w09b)"
 execute if score MinecraftVersion VersionInfo matches 30 run tellraw @s "Detected Server Version: 1.21.5 Snapshot (25w10a)"
-execute if score MinecraftVersion VersionInfo matches 31 run tellraw @s "Detected Server Version: 1.21.5 Pre-Release 1/2"
+execute if score MinecraftVersion VersionInfo matches 31 run tellraw @s "Detected Server Version: 1.21.5"
 execute if score IsModded VersionInfo matches 2 run tellraw @s "Is Modded: Definitely; NeoForge detected."
 execute if score IsModded VersionInfo matches 1 run tellraw @s "Is Modded: Definitely; Forge detected."
 execute if score IsModded VersionInfo matches 0 run tellraw @s "Is Modded: Probably not; No modloader and/or mods detected."
