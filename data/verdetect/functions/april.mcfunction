@@ -1,0 +1,4 @@
+function verdetect:20w14inf
+function verdetect:22w13oneblock
+function verdetect:23w13aorb
+function verdetect:24w14potato
