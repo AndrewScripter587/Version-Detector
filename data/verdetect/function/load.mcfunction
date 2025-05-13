@@ -14,6 +14,7 @@ function verdetect:1.13
 function verdetect:april
 function verdetect:forgetest
 function verdetect:neoforgetest
+function verdetect:fabrictest
 function verdetect:ismodded
 
 execute as @a run function verdetect:printversion

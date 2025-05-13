@@ -41,7 +41,9 @@ execute if score MinecraftVersion VersionInfo matches 1004 run tellraw @s "Detec
 execute if score MinecraftVersion VersionInfo matches 1002 run tellraw @s "Fun Fact: This version of the game is a mix between 1.18.2 and Deep Dark Experimental Snapshot 1, because not all features from DDES1 are in this version"
 execute if score IsModded VersionInfo matches 2 run tellraw @s "Is Modded: Definitely; NeoForge detected."
 execute if score IsModded VersionInfo matches 1 run tellraw @s "Is Modded: Definitely; Forge detected."
+execute if score IsModded VersionInfo matches 3 run tellraw @s "Is Modded: Probably; Fabric/Quilt with Fabric API detected."
 execute if score IsModded VersionInfo matches 0 run tellraw @s "Is Modded: Probably not; No modloader and/or mods detected."
 
 execute if score IsForge VersionInfo matches 1 run tellraw @s "Detected Server Software: Forge Mod Loader"
 execute if score IsNeoForge VersionInfo matches 1 run tellraw @s "Detected Server Software: NeoForge Mod Loader"
+execute if score IsFabric VersionInfo matches 1 run tellraw @s "Detected Server Software: Fabric/Quilt Mod Loader with Fabric API"

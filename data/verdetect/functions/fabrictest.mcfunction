@@ -1,0 +1,1 @@
+execute store success score IsFabric VersionInfo if block ~ ~ ~ #c:chests
