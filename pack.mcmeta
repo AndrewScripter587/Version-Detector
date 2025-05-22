@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 26,
+        "pack_format": 78,
         "supported_formats": [0,999],
         "description": "Detect your Minecraft Version!"
     }
