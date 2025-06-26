@@ -33,7 +33,8 @@ execute if score MinecraftVersion VersionInfo matches 30 run tellraw @s "Detecte
 execute if score MinecraftVersion VersionInfo matches 31 run tellraw @s "Detected Server Version: 1.21.5"
 execute if score MinecraftVersion VersionInfo matches 32 run tellraw @s "Detected Server Version: 1.21.6 Snapshot (25w15a-25w16a)"
 execute if score MinecraftVersion VersionInfo matches 33 run tellraw @s "Detected Server Version: 1.21.6 Snapshot (25w17a-25w19a)"
-execute if score MinecraftVersion VersionInfo matches 34 run tellraw @s "Detected Server Version: 1.21.6 Snapshot (25w20a)"
+execute if score MinecraftVersion VersionInfo matches 34 run tellraw @s "Detected Server Version: 1.21.6 Snapshot (25w20a-1.21.6 Pre-Release 2)"
+execute if score MinecraftVersion VersionInfo matches 35 run tellraw @s "Detected Server Version: 1.21.6
 execute if score MinecraftVersion VersionInfo matches 1001 run tellraw @s "Detected Server Version: 20w14infinite (April Fools, 1.16 Snapshot)"
 execute if score MinecraftVersion VersionInfo matches 1002 run tellraw @s "Detected Server Version: 22w13oneBlockAtATime (April Fools, Deep Dark Experimental Snapshot 1)"
 execute if score MinecraftVersion VersionInfo matches 1003 run tellraw @s "Detected Server Version: 23w13a_or_b (April Fools, 1.20 Snapshot)"

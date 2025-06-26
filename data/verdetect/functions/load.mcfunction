@@ -8,7 +8,6 @@ scoreboard objectives add DetectedMods dummy
 
 scoreboard players set MinecraftVersion VersionInfo -1
 scoreboard players set IsForge VersionInfo 0
-scoreboard players set IsFabric VersionInfo 0
 scoreboard players set IsNeoForge VersionInfo 0
 
 function verdetect:1.13

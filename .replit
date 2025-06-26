@@ -1,6 +1,7 @@
 run = "bash makezip.sh"
 [nix]
 channel = "stable-24_05"
+packages = ["zip"]
 
 [deployment]
 run = ["sh", "-c", "bash makezip.sh"]
