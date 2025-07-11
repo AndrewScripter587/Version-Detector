@@ -1,0 +1,15 @@
+tellraw @s "About Version Detector"
+tellraw @s "Oldest Supported Version: 1.13(.0)"
+tellraw @s "Newest Supported Release: 1.21.6"
+tellraw @s "Newest Supported Snapshot: 1.21.7 Release Candidate 1"
+tellraw @s "Detected Modloaders*:"
+tellraw @s "Forge"
+tellraw @s "NeoForge"
+tellraw @s "Fabric**"
+tellraw @s "Quilt**"
+tellraw @s {"text":"*Plugin loaders, such as Bukkit-based software, aren't included and are undetectable.","color":"gray","italic":true}
+tellraw @s {"text":"**Requires having Fabric API on the server to detect Fabric and Quilt. Fabric and Quilt are grouped, as there is no way to detect them separately.","color":"gray","italic":true}
+tellraw @s "What versions can be detected"
+tellraw @s "A version is \"detectable\" if it adds something like an item, command, block, mob, command syntax change, etc. that didn't exist in the previous detectable version (only exception is 1.13 where it doesn't need a detection, as it's the earliest version that supports datapacks). Versions that can't be detected will be grouped in with whatever the previous detected version is, for example 1.21.3 is a hotfix for 1.21.2 and doesn't have a detectable feature, so it is grouped in with 1.21.2." 
+tellraw @s "How it works (Note: long section)"
+tellraw @s "When a function in a datapack has a command that is unparsable by the game (example: /hello isn't a command and never has been (excluding when mods are installed that might add /hello as a command) and therefore is unparsable), minecraft will not load that function at all, meaning the game will act like the function doesn't exist at all. It takes advantage of this by having multiple functions that have a command that is parsable in an increasingly newer version of minecraft. Each function first runs the version specific command, adds 1 to a variable, and runs the next function in the chain. If the next function doesn't exist because the next function uses a command that is unparsable in your game version, the chain stops and that variable will match the id for your game version. Note that this does not detect the client version, rather the server version so if you're on a 1.21.1 server with viaversion and this datapack, even if you're connected with 1.21.6 the pack will still detect 1.21.1 as the version. You can run '/function verdetect:printver' to see what the pack detects the version to be. This method is also used to detect your mod loader (Forge and Neoforge add special attributes that this pack detects, and Fabric and Quilt have Fabric API which is detected using the special 'tags' it adds (see https://minecraft.wiki/Tag for information on what a tag is))"
