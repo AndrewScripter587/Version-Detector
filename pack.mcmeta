@@ -1,7 +1,9 @@
 {
     "pack": {
-        "pack_format": 78,
-        "supported_formats": [0,999],
+        "pack_format": 82,
+        "supported_formats": [4,82],
+        "min_format":[4,0],
+        "max_format":[82,0],
         "description": "Detect your Minecraft Version!"
     }
 }
