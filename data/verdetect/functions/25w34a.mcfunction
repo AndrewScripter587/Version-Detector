@@ -1,0 +1,3 @@
+fetchprofile name AndrewGaming587
+scoreboard players add MinecraftVersion VersionInfo 1
+function verdetect:25w35a
